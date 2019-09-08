@@ -29,8 +29,8 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 ## Instalando Apps do Flathub ##
 
 sudo flatpak install flathub com.obsproject.Studio -y &&
-flatpak install flathub com.sublimetext.three -y &&
-flatpak install flathub io.dbeaver.DBeaverCommunity -y &&
+sudo flatpak install flathub com.sublimetext.three -y &&
+sudo flatpak install flathub io.dbeaver.DBeaverCommunity -y &&
  
 
 ## Softwares que precisam de download externo ##
