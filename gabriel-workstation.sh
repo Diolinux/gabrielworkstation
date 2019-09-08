@@ -35,7 +35,7 @@ flatpak install flathub io.dbeaver.DBeaverCommunity -y &&
 
 ## Softwares que precisam de download externo ##
 
-cd /tmp && wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i *.deb &&
+cd ~/Downloads/ && wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i *.deb &&
 
 ##Softwares alternativos Windows##
 
