@@ -47,7 +47,7 @@ flatpak install flathub org.gimp.GIMP -y && wget -c https://doc-0s-1g-docs.googl
 
 ## Atualização do sistema ##
 
-sudo apt update && sudo apt dist-upgrade -y &&
+sudo apt update && sudo apt dist-upgrade -y && sudo apt autoclean && sudo apt autoremove &&
 
 #Fim do Script ##
 
