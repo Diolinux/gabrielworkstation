@@ -10,7 +10,7 @@ sudo apt update &&
 
 ## Instalando pacotes e programas do repositório deb do Ubuntu ##
 
-sudo apt install python3 python-pip nautilus-dropbox docker docker-compose git build-essential libssl-dev flatpak gnome-software-plugin-flatpak -y &&
+sudo apt install python3 python-pip wine nautilus-dropbox docker docker-compose git build-essential libssl-dev flatpak gnome-software-plugin-flatpak -y &&
 
 ## Instalando pacotes Snap ##
 
@@ -44,7 +44,7 @@ flatpak install flathub org.gimp.GIMP -y && wget -c https://doc-0s-1g-docs.googl
 
 ## Wine softwares ###
 
-cd /home/$USER/ && sudo apt install wine -y && wget -c https://uploads.treeunfe.me/downloads/instalar-freenfe.exe && wine instalar-freenfe.exe &&
+cd /home/$USER/Downloads/ && wget -c https://uploads.treeunfe.me/downloads/instalar-freenfe.exe && wine instalar-freenfe.exe &&
 
 ## Atualização do sistema ##
 
