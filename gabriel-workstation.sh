@@ -44,7 +44,7 @@ flatpak install flathub org.gimp.GIMP -y && wget -c https://doc-0s-1g-docs.googl
 
 ## Wine softwares ###
 
-cd /home/$USER/Downloads/ && wget -c https://uploads.treeunfe.me/downloads/instalar-freenfe.exe && wine instalar-freenfe.exe &&
+wget -c https://uploads.treeunfe.me/downloads/instalar-freenfe.exe && wine instalar-freenfe.exe &&
 
 ## Atualização do sistema ##
 
