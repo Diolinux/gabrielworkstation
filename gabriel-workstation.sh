@@ -35,7 +35,7 @@ flatpak install flathub io.dbeaver.DBeaverCommunity -y &&
 
 ## Softwares que precisam de download externo ##
 
-cd ~/Downloads/ && wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i *.deb &&
+cd ~/Downloads/ && wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i *.deb && wget -c https://uploads.treeunfe.me/downloads/instalar-freenfe.exe &&
 
 ##Softwares alternativos Windows##
 
@@ -43,7 +43,9 @@ cd ~/Downloads/ && wget -c https://dl.google.com/linux/direct/google-chrome-stab
 flatpak install flathub org.gimp.GIMP -y && wget -c https://doc-0s-1g-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/0v83rmt4mij9897co9ufvor2r1jcj1am/1567965600000/07452089978596344616/*/12i-ihCDSZelx30-oNHJaKAzUei1etsbS?e=download && mv 12i-ihCDSZelx30-oNHJaKAzUei1etsbS?e=download photogimp.zip && unzip photogimp.zip && cd photogimp && "PHOTOGIMP V2018 - DIOLINUX" && cd "PATCH" && mkdir -p /home/$USER/.var/app/org.gimp.GIMP/config/GIMP/2.10/ && cp -R * /home/$USER/.var/app/org.gimp.GIMP/config/GIMP/2.10/ &&
 
 ## Wine softwares ###
-## wget -c https://uploads.treeunfe.me/downloads/instalar-freenfe.exe && wine instalar-freenfe.exe &&
+## wget -c https://uploads.treeunfe.me/downloads/instalar-freenfe.exe
+
+wine instalar-freenfe.exe ;
 
 ## Atualização do sistema ##
 
